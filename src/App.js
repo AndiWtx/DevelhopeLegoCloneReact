@@ -5,7 +5,6 @@ import { ImageSection } from "./Header/ImageSection";
 import { LayoutSection } from "./Header/LayoutSection";
 import { TopBionicle } from "./TopBionicle";
 
-
 export class App extends React.Component {
   render() {
     return (
