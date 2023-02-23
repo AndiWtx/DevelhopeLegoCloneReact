@@ -1,12 +1,18 @@
 import React from "react";
-import { Header } from "./Header";
+import { UtilityBar } from "./Header/UtilityBar";
+import { MainBar } from "./Header/MainBar";
+import { ImageSection } from "./Header/ImageSection";
+import { LayoutSection } from "./Header/LayoutSection";
 
 
 export class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <UtilityBar />
+        <MainBar />
+        <ImageSection />
+        <LayoutSection />
       </div>
     );
   }
