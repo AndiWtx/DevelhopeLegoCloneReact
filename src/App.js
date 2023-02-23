@@ -3,6 +3,7 @@ import { UtilityBar } from "./Header/UtilityBar";
 import { MainBar } from "./Header/MainBar";
 import { ImageSection } from "./Header/ImageSection";
 import { LayoutSection } from "./Header/LayoutSection";
+import { TopBionicle } from "./TopBionicle";
 
 
 export class App extends React.Component {
@@ -13,6 +14,7 @@ export class App extends React.Component {
         <MainBar />
         <ImageSection />
         <LayoutSection />
+        <TopBionicle />
       </div>
     );
   }
