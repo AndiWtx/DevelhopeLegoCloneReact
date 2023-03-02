@@ -3,7 +3,8 @@ import { UtilityBar } from "./Header/UtilityBar";
 import { MainBar } from "./Header/MainBar";
 import { ImageSection } from "./Header/ImageSection";
 import { LayoutSection } from "./Header/LayoutSection";
-import { TopBionicle } from "./TopBionicle";
+import { TopBionicle } from "./Body/TopBionicle";
+import { PreBionicle } from "./Body/PreBionicle";
 import { FooterIndex } from "./Footer/FooterIndex";
 
 export class App extends React.Component {
@@ -17,9 +18,10 @@ export class App extends React.Component {
         <LayoutSection />
         {/*  Taha's Part End <- */}
 
-        {/* Ömer's Part Start */}
+        {/*omer*/}
         <TopBionicle />
-        {/* Ömer's Part End */}
+        <PreBionicle />
+        {/*omer-end*/}
 
         {/* Andrei's Part Start ->  */}
         <FooterIndex />
