@@ -17,10 +17,12 @@ export class App extends React.Component {
         <ImageSection />
         <LayoutSection />
         {/*  Taha's Part End <- */}
+
         {/*omer*/}
         <TopBionicle />
         <PreBionicle />
         {/*omer-end*/}
+
         {/* Andrei's Part Start ->  */}
         <FooterIndex />
 
