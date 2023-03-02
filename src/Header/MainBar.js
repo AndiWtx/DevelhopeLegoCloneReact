@@ -10,8 +10,9 @@ export class MainBar extends React.Component {
               <nav class="main-bar-main-navigation">
                 <a href="#" class="main-bar-main-navigation-anchor">
                   <img
-                    src="assets/images/header_images/lego-logo.svg"
+                    src="./images/lego-logo.svg"
                     alt="Lego"
+                    width="50px"
                     class="main-bar-main-navigation-lego-logo"
                   />
                 </a>

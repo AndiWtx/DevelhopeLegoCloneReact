@@ -7,28 +7,10 @@ export class ImageSection extends React.Component {
         <a href="#" class="main-image-section-anchor">
           <div class="main-image-section-image-container">
             <picture class="main-image-section-picture">
-              <source
-                type="image/jpeg"
-                media="(min-width: 901px)"
-                srcset="assets/images/header_images/imageSection_Large.jpg 1.2x"
-              />
-              <source
-                type="image/jpeg"
-                media="(min-width: 601px)"
-                srcset="
-                    assets/images/header_images/imageSection_Medium.jpg 1.5x
-                  "
-              />
-              <source
-                type="image/jpeg"
-                media="(max-width: 600px)"
-                srcset="assets/images/header_images/imageSection_Small.jpg 2x"
-              />
-              <img
-                src="assets/images/header_images/imageSection_Large.jpg"
-                alt=""
-                class="main-image-section-picture-image"
-              />
+              <source type="image/jpeg" media="(min-width: 901px)" srcset="" />
+              <source type="image/jpeg" media="(min-width: 601px)" srcset="" />
+              <source type="image/jpeg" media="(max-width: 600px)" srcset="" />
+              <img src="" alt="" class="main-image-section-picture-image" />
             </picture>
             <div class="main-image-section-on-image-container">
               <h2 class="main-image-section-on-image-text">
