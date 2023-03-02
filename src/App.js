@@ -6,6 +6,7 @@ import { LayoutSection } from "./Header/LayoutSection";
 import { TopBionicle } from "./Body/TopBionicle";
 import { PreBionicle } from "./Body/PreBionicle";
 import { FooterIndex } from "./Footer/FooterIndex";
+import "./index.css";
 
 export class App extends React.Component {
   render() {
