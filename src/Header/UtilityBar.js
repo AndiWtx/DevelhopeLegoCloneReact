@@ -127,7 +127,7 @@ export class UtilityBar extends React.Component {
             <span class="utility-bar-account-vip-border"></span>
             <a href="#" class="utility-bar-vip-link">
               <img
-                src="./Header/assets/header_UB_VipIcon.png"
+                src="./images/header_UB_VipIcon.png"
                 width="20px"
                 height="20px"
                 alt="VIP"

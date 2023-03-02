@@ -15,18 +15,17 @@ export class App extends React.Component {
         <MainBar />
         <ImageSection />
         <LayoutSection />
-        <TopBionicle />
         {/*  Taha's Part End <- */}
+
+        {/* Ömer's Part Start */}
+        <TopBionicle />
+        {/* Ömer's Part End */}
 
         {/* Andrei's Part Start ->  */}
         <FooterIndex />
 
         {/* Andrei's Part End <- */}
-
-
       </div>
-
-
     );
   }
 }

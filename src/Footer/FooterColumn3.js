@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export class FooterColumn3 extends React.Component {
   render() {
@@ -7,17 +7,22 @@ export class FooterColumn3 extends React.Component {
         <span class="footerInfo_thirdColumn">
           <div class="footerInfo_title">ATRACTIONS</div>
           <div class="footerInfo_details">
-            <a href="##" id="footerInfo_details">LEGO® House</a>
+            <a href="##" id="footerInfo_details">
+              LEGO® House
+            </a>
           </div>
           <div class="footerInfo_details">
-            <a href="##" id="footerInfo_details">LEGOLAND® Parks</a>
+            <a href="##" id="footerInfo_details">
+              LEGOLAND® Parks
+            </a>
           </div>
           <div class="footerInfo_details">
-            <a href="##" id="footerInfo_details"
-            >LEGOLAND Discovery Centers</a >
+            <a href="##" id="footerInfo_details">
+              LEGOLAND Discovery Centers
+            </a>
           </div>
         </span>
       </div>
-    )
+    );
   }
 }
