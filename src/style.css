@@ -1,8 +1,11 @@
+@import './Footer/footerStyle.css';
+@import './fonts.css';
+
 .firstcontainer {
   display: flex;
   width: 82rem;
   justify-content: space-evenly;
-}
+};
 
 .topsellingtitle {
   display: flex;
@@ -35,3 +38,6 @@
 .item-card img {
   max-width: 100%;
 }
+
+
+
