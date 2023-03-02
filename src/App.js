@@ -5,6 +5,7 @@ import { ImageSection } from "./Header/ImageSection";
 import { LayoutSection } from "./Header/LayoutSection";
 import { TopBionicle } from "./TopBionicle";
 import { FooterIndex } from "./Footer/FooterIndex";
+import "./index.css";
 
 export class App extends React.Component {
   render() {
@@ -22,11 +23,7 @@ export class App extends React.Component {
         <FooterIndex />
 
         {/* Andrei's Part End <- */}
-
-
       </div>
-
-
     );
   }
 }

@@ -4,3 +4,5 @@ let's try put all the css by import, as I did in style :D:D:D
 I only need to see where is the connection between the style.css and the html 
 
 */
+
+@import "./fonts.css";
