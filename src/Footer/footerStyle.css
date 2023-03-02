@@ -4,7 +4,6 @@
   background: rgb(32, 29, 72);
   padding-left: 100px;
   padding-top: 50px;
-  
 }
 
 .legoImage-footer {
@@ -13,13 +12,13 @@
   padding-bottom: 20px;
 }
 
-.dropPinImage-footer{
-  width:16px;
+.dropPinImage-footer {
+  width: 16px;
   height: 18px;
 }
 
-#romania-href{
-  padding-left:10px;
+#romania-href {
+  padding-left: 10px;
 }
 
 #selectionRegion-footer {
@@ -37,8 +36,7 @@
   text-align: center;
   color: white;
   padding: 12px;
-  font-family: "CeraPro-Regular"
-
+  font-family: "CeraPro-Regular";
 }
 
 #giftCards-footer {
@@ -51,7 +49,7 @@
   padding-top: 30px;
   padding-bottom: 20px;
   padding-left: 10px;
-  font-family: "CeraPro-Regular"
+  font-family: "CeraPro-Regular";
 }
 
 .footer_giftCards:hover {
@@ -68,7 +66,7 @@
   padding-top: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
-  font-family: "CeraPro-Regular"
+  font-family: "CeraPro-Regular";
 }
 
 .footer_legoCatalogs:hover {
@@ -85,7 +83,7 @@
   padding-top: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
-  font-family: "CeraPro-Regular"
+  font-family: "CeraPro-Regular";
 }
 
 .footer_legoFinder:hover {
@@ -149,4 +147,3 @@
 .footerInfo_details:hover {
   text-decoration: underline;
 }
-
