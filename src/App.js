@@ -4,9 +4,9 @@ import { MainBar } from "./Header/MainBar";
 import { ImageSection } from "./Header/ImageSection";
 import { LayoutSection } from "./Header/LayoutSection";
 import { TopBionicle } from "./Body/TopBionicle";
-import { PreBionicle } from "./Body/PreBionicle";
 import { FooterIndex } from "./Footer/FooterIndex";
 import "./index.css";
+import { BionicleFinal } from "./Body/BionicleFinal";
 
 export class App extends React.Component {
   render() {
@@ -21,7 +21,8 @@ export class App extends React.Component {
 
         {/*omer*/}
         <TopBionicle />
-        <PreBionicle />
+
+        <BionicleFinal />
         {/*omer-end*/}
 
         {/* Andrei's Part Start ->  */}
