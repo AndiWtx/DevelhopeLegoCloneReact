@@ -1,30 +1,37 @@
+/* footer index&comp1 here */
+
 .footerContainer {
   display: flex;
   width: auto;
   background: rgb(32, 29, 72);
   padding-left: 100px;
   padding-top: 50px;
+  box-sizing: content-box;
 }
 
 .legoImage-footer {
   width: 100px;
   height: 100px;
   padding-bottom: 20px;
+  box-sizing: content-box;
 }
 
 .dropPinImage-footer {
   width: 16px;
   height: 18px;
+  box-sizing: content-box;
 }
 
 #romania-href {
   padding-left: 10px;
+  box-sizing: content-box;
 }
 
 #selectionRegion-footer {
   color: white;
   text-decoration: none;
   padding-left: 10px;
+  box-sizing: content-box;
 }
 
 .footer_selectionRegion {
@@ -37,11 +44,13 @@
   color: white;
   padding: 12px;
   font-family: "CeraPro-Regular";
+  box-sizing: content-box;
 }
 
 #giftCards-footer {
   color: white;
   text-decoration: none;
+  box-sizing: content-box;
 }
 
 .footer_giftCards {
@@ -50,6 +59,7 @@
   padding-bottom: 20px;
   padding-left: 10px;
   font-family: "CeraPro-Regular";
+  box-sizing: content-box;
 }
 
 .footer_giftCards:hover {
@@ -59,6 +69,7 @@
 #legoCatalogs-footer {
   color: white;
   text-decoration: none;
+  box-sizing: content-box;
 }
 
 .footer_legoCatalogs {
@@ -67,6 +78,7 @@
   padding-bottom: 20px;
   padding-left: 10px;
   font-family: "CeraPro-Regular";
+  box-sizing: content-box;
 }
 
 .footer_legoCatalogs:hover {
@@ -76,14 +88,17 @@
 #findLego-footer {
   color: white;
   text-decoration: none;
+  box-sizing: content-box;
 }
 
 .footer_legoFinder {
+  width: 150px;
   color: white;
   padding-top: 5px;
   padding-bottom: 20px;
   padding-left: 10px;
   font-family: "CeraPro-Regular";
+  box-sizing: content-box;
 }
 
 .footer_legoFinder:hover {
@@ -92,6 +107,7 @@
 
 .footerInfo {
   display: flex;
+  box-sizing: content-box;
 }
 
 .footerInfo_firstColumn {
@@ -100,6 +116,7 @@
   height: auto;
   padding-left: 140px;
   color: white;
+  box-sizing: content-box;
 }
 
 .footerInfo_secondColumn {
@@ -108,6 +125,7 @@
   height: auto;
   padding-left: 80px;
   color: white;
+  box-sizing: content-box;
 }
 
 .footerInfo_thirdColumn {
@@ -116,6 +134,7 @@
   height: auto;
   padding-left: 80px;
   color: white;
+  box-sizing: content-box;
 }
 
 .footerInfo_fourthColumn {
@@ -124,6 +143,7 @@
   height: auto;
   padding-left: 80px;
   color: white;
+  box-sizing: content-box;
 }
 
 .footerInfo_title {
@@ -131,19 +151,59 @@
   padding-bottom: 20px;
   font-size: 15px;
   font-family: "CeraPro-Bold";
+  box-sizing: content-box;
 }
 
 #footerInfo_details {
   color: white;
   text-decoration: none;
   font-family: "CeraPro-Regular";
+  box-sizing: content-box;
 }
 
 .footerInfo_details {
   padding-top: 10px;
   padding-bottom: 10px;
+  box-sizing: content-box;
 }
 
 .footerInfo_details:hover {
   text-decoration: underline;
+}
+
+/* social comp going here */
+
+/* end */
+
+.footerWrapper {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+  background: rgb(32, 29, 72);
+  color: white;
+}
+
+.footerWrapper_generalInfo {
+  display: flex;
+}
+
+#footerWrapper_generalInfo_item {
+  color: white;
+  text-decoration: none;
+}
+
+.footerWrapper_generalInfo_item {
+  padding-right: 40px;
+  font-size: small;
+}
+
+.footerWrapper_generalInfo_item:hover {
+  text-decoration: underline;
+}
+
+.footerWrapper_credentials {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-size: small;
+  width: auto;
 }
