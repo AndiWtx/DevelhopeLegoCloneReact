@@ -1,10 +1,10 @@
-import React from "react";
 import { FooterComp1 } from "./FooterComp1";
 import { FooterColumns } from "./FooterColumns";
+import { FooterCredits } from "./FooterCredits";
 
-export class FooterIndex extends React.Component {
-  render() {
-    return (
+export function FooterIndex() {
+  return (
+    <>
       <div className="footerContainer">
         <span>
           <FooterComp1 />
@@ -13,6 +13,9 @@ export class FooterIndex extends React.Component {
           <FooterColumns />
         </div>
       </div>
-    );
-  }
+      <span>
+        <FooterCredits />
+      </span>
+    </>
+  );
 }
