@@ -3,20 +3,20 @@ import React from "react";
 export class UtilityBar extends React.Component {
   render() {
     return (
-      <div>
-        <div class="utility-bar-container">
-          <div class="utiliy-bar-play-zone">
+      <div className="z-[100] sticky bg-[rgb(248,248,248)] transition-[0s] duration-[ease-in] delay-[0.3s] top-0 inset-x-0">
+        <div className="bg-[rgb(248,248,248)] flex relative items-center justify-between w-full max-w-[100rem] mx-auto my-0 px-7 py-0">
+          <div className="flex flex-[0_1_33.33%] items-center mb-[0.94rem] mt-[0.94rem]">
             <a
               href="https://www.lego.com/kids"
-              class="utility-bar-play-zone-anchor"
+              className="inline-flex items-center rounded-sm border-none bg-[rgb(117,217,255)] hover:bg-[white] text-black text-xs leading-6 uppercase px-0 py-2.5 shadow-[rgb(48_85_181_/_44%)_0px_1px_4px_0px] w-auto text-center border-collapse font-medium no-underline "
             >
               <svg
-                width="37"
+                width="18"
                 height="16"
                 viewBox="0 0 37 16"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
-                class="arrow-icon"
+                className="mr-2.5 leading-none rotate-180 "
               >
                 <path
                   fill="currentColor"
@@ -27,9 +27,9 @@ export class UtilityBar extends React.Component {
             </a>
           </div>
 
-          <div class="header-slider-banner">
+          <div className="flex max-w-[34.6875rem] mx-auto my-0 justify-evenly h-[3.1875rem] relative">
             <button
-              class="header-slider-left-button"
+              className="text-[rgb(44,44,44)] z-[1] shadow-none cursor-pointer mx-auto p-3 bg-transparent border-0 "
               type="button"
               onclick="buttonSlider()"
             >
@@ -39,7 +39,7 @@ export class UtilityBar extends React.Component {
                 viewBox="0 0 18 28"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
-                class="header-slider-left-arrow"
+                className="rotate-180 h-[18px]"
               >
                 <path
                   d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
@@ -47,11 +47,14 @@ export class UtilityBar extends React.Component {
                 ></path>
               </svg>
             </button>
-            <div class="header-slider-inner-bar">
-              <p class="header-slider-inner-bar-text" id="headerSliderText">
+            <div className="flex w-full justify-center items-center shrink-0 translate-x-0 duration-300 ease-in-out will-change-transform ">
+              <p
+                className="pointer-events-none m-0 text-center z-[2] text-xs leading-5 font-normal"
+                id="headerSliderText"
+              >
                 BIONICLE® gift with qualifying purchases over $100*
                 <a
-                  class="header-slider-inner-bar-anchor"
+                  className="ml-3 whitespace-nowrap cursor-pointer"
                   href="https://www.lego.com/en-us/black-friday-deals?icmp=SW-SHB-Standard-NO_SWB_Black_Friday_Reveal_Phase_HP-F-NO-TJ7B9W69IA"
                 >
                   Shop now
@@ -59,7 +62,7 @@ export class UtilityBar extends React.Component {
               </p>
             </div>
             <button
-              class="header-slider-right-button"
+              className="text-[rgb(44,44,44)] z-[1] shadow-none cursor-pointer mx-auto p-3 bg-transparent border-0 "
               type="button"
               onclick="buttonSlider()"
             >
@@ -69,7 +72,7 @@ export class UtilityBar extends React.Component {
                 viewBox="0 0 18 28"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
-                class="header-slider-right-arrow"
+                className="h-[18px]"
               >
                 <path
                   d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
@@ -79,8 +82,8 @@ export class UtilityBar extends React.Component {
             </button>
           </div>
 
-          <div class="utility-bar-account-vip">
-            <button class="utility-bar-account-button">
+          <div className="flex flex-[0_1_33.33%] items-center justify-end mx-auto my-0 ">
+            <button className="flex items-center h-full text-xs leading-3 weight font-medium border-0 p-0 cursor-pointer bg-transparent shadow-none overflow-visible m-0  ">
               <svg
                 width="20"
                 height="22"
@@ -88,6 +91,7 @@ export class UtilityBar extends React.Component {
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 class="utility-bar-account-button-svg"
+                className="mr-2.5 leading-[0] h-5 w-5 "
               >
                 <g transform="translate(1 1)" fill-rule="nonzero" fill="none">
                   <rect
@@ -124,16 +128,20 @@ export class UtilityBar extends React.Component {
               <span>Account</span>
             </button>
 
-            <span class="utility-bar-account-vip-border"></span>
-            <a href="#" class="utility-bar-vip-link">
+            <span className="w-px h-5 bg-[rgb(117,117,117)] mx-5 my-0; "></span>
+            <a
+              href="#"
+              className="flex items-center h-full text-xs leading-5 font-medium cursor-pointer no-underline bg-transparent "
+            >
               <img
                 src="./images/header_UB_VipIcon.png"
                 width="20px"
                 height="20px"
                 alt="VIP"
-                class="utility-bar-vip-image"
+                className="w-5 h-5 mr-2.5 inline-block align-middle border-none
+                 "
               />
-              <span class="utility-bar-vip-span">VIP</span>
+              <span className="text-xs leading-5 font-medium">VIP</span>
             </a>
           </div>
         </div>
