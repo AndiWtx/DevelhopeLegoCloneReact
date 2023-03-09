@@ -23,7 +23,7 @@ export class LayoutSection extends React.Component {
               >
                 <picture class="layout-section-image-style-container">
                   <img
-                    src=""
+                    src="./images/newin2023.png"
                     alt="New in 2023"
                     className="w-[80px] h-[65px] "
                   />
@@ -39,7 +39,11 @@ export class LayoutSection extends React.Component {
             >
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
-                  <img src="" alt="Exclusives" className="w-[80px] h-[65px] " />
+                  <img
+                    src="./images/exclusives.png"
+                    alt="Exclusives"
+                    className="w-[80px] h-[65px] "
+                  />
                 </picture>
                 <span class="layout-section-image-description">Exclusives</span>
               </a>
@@ -50,7 +54,11 @@ export class LayoutSection extends React.Component {
             >
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
-                  <img src="" alt="Offers" className="w-[80px] h-[65px] " />
+                  <img
+                    src="./images/offers.png"
+                    alt="Offers"
+                    className="w-[80px] h-[65px] "
+                  />
                 </picture>
                 <span class="layout-section-image-description">Offers</span>
               </a>
@@ -62,7 +70,7 @@ export class LayoutSection extends React.Component {
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
-                    src=""
+                    src="./images/valentines.png"
                     alt="Valentine's Day"
                     className="w-[80px] h-[65px] "
                   />
@@ -78,7 +86,11 @@ export class LayoutSection extends React.Component {
             >
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
-                  <img src="" alt="Friends" className="w-[80px] h-[65px] " />
+                  <img
+                    src="./images/friends.png"
+                    alt="Friends"
+                    className="w-[80px] h-[65px] "
+                  />
                 </picture>
                 <span class="layout-section-image-description">Friends</span>
               </a>
@@ -89,7 +101,11 @@ export class LayoutSection extends React.Component {
             >
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
-                  <img src="" alt="Marvel" className="w-[80px] h-[65px] " />
+                  <img
+                    src="./images/marvel.png"
+                    alt="Marvel"
+                    className="w-[80px] h-[65px] "
+                  />
                 </picture>
                 <span class="layout-section-image-description">Marvel</span>
               </a>
@@ -101,7 +117,7 @@ export class LayoutSection extends React.Component {
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
-                    src=""
+                    src="./images/lego-superior-mario.png"
                     alt="Super Mario"
                     className="w-[80px] h-[65px] "
                   />
@@ -117,7 +133,11 @@ export class LayoutSection extends React.Component {
             >
               <a href="#" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
-                  <img src="" alt="VIP" className="w-[80px] h-[65px] " />
+                  <img
+                    src="./images/vip_lay.jpeg"
+                    alt="VIP"
+                    className="w-[80px] h-[65px] "
+                  />
                 </picture>
                 <span class="layout-section-image-description">VIP</span>
               </a>

@@ -21,7 +21,7 @@ export class ImageSection extends React.Component {
               <source type="image/jpeg" media="(min-width: 601px)" srcset="" />
               <source type="image/jpeg" media="(max-width: 600px)" srcset="" />
               <img
-                src=""
+                src="./images/imagebar.jpeg"
                 alt=""
                 class="main-image-section-picture-image"
                 className="inline-block align-middle max-w-full object-cover w-full h-full relative border-none inset-0"
