@@ -18,7 +18,7 @@ export function TopBionicle() {
                   Build a model of one of the world’s best-loved landmarks.
                 </div>
                 <a className="group-hover:underline text-[16px] font-bold ">
-                  Shop now >
+                  Shop now
                 </a>
               </div>
             </a>
@@ -33,7 +33,7 @@ export function TopBionicle() {
                   set.
                 </div>
                 <a className="group-hover:underline text-[16px] font-bold">
-                  Shop now >
+                  Shop now
                 </a>
               </div>
             </a>
@@ -46,7 +46,7 @@ export function TopBionicle() {
                   scale.
                 </div>
                 <a className="group-hover:underline text-[16px] font-bold">
-                  Shop now >
+                  Shop now
                 </a>
               </div>
             </a>
@@ -61,7 +61,7 @@ export function TopBionicle() {
                   fan favorite.
                 </div>
                 <a className="group-hover:underline text-[16px] font-bold">
-                  Shop now >
+                  Shop now
                 </a>
               </div>
             </a>
@@ -85,7 +85,7 @@ export function TopBionicle() {
                   Reserve the new Clone Commander Cody™ Helmet today.
                 </div>
                 <a className="group-hover:underline text-[16px] font-bold ">
-                  Shop now >
+                  Shop now
                 </a>
               </div>
               <img
@@ -103,7 +103,7 @@ export function TopBionicle() {
                   New Princess Leia™ (Boushh™) Helmet. Ships from 3/1.
                 </div>
                 <a className="group-hover:underline text-[16px] font-bold ">
-                  Shop now >
+                  Shop now
                 </a>
               </div>
               <img
