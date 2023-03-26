@@ -53,8 +53,13 @@ export function Carousel2() {
             </div>
           </a>
           <a href="" className="group ">
-            <div className="flex flex-col font-Cerapro  w-72 text-center">
-              <img className="" src={Images.Future} />
+            <div className="flex flex-col font-Cerapro  w-72 text-center relative">
+              <div className="">
+                <img classname="" src={Images.Future} />
+              </div>
+              <div className="absolute ">
+                <img classname="" src={Images.FutureLogo} />
+              </div>
               <div className="font-bold text-[20px]">
                 LEGO® Back to the Future Time Machine
               </div>
