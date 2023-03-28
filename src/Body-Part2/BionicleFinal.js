@@ -20,7 +20,7 @@ export function BionicleFinal() {
               className="absolute top-10  bg-black text-white text-center p-3 w-40 rounded-[4px]
                     hover:bg-white hover:text-black"
             >
-              Shop Now >
+              Shop Now
             </div>
           </div>
         </div>
