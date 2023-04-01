@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import { App } from "./App";
-import "./Body-Part2/style.css";
+import "./style.css";
 
 const app = <App />;
 const root = document.getElementById("root");

@@ -3,7 +3,7 @@ import dropPin from "./images-footer/pin-drop.png";
 
 export function FooterComp1() {
   return (
-    <div>
+    <div className="comp1-style">
       <img src={legoImage} alt="lego-logo" class="legoImage-footer" />
       <div class="footer_selectionRegion">
         <img src={dropPin} alt="lego-logo" class="dropPinImage-footer" />

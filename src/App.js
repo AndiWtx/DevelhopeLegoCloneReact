@@ -5,9 +5,9 @@ import { ImageSection } from "./Header/ImageSection";
 import { LayoutSection } from "./Header/LayoutSection";
 import { TopBionicle } from "./Body-Part2/TopBionicle";
 import { FooterIndex } from "./Footer/FooterIndex";
-import "./index.css";
 import { BionicleFinal } from "./Body-Part2/BionicleFinal";
 import { Carousel2 } from "./Body-Part1/Carousel2";
+import { ReadAllAbout } from "./Body-Part3/ReadAllAbout"
 
 export class App extends React.Component {
   render() {
@@ -32,6 +32,7 @@ export class App extends React.Component {
         {/*omer-end*/}
 
         {/* Andrei's Part Start ->  */}
+        <ReadAllAbout />
         <FooterIndex />
 
         {/* Andrei's Part End <- */}

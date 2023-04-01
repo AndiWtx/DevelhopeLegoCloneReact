@@ -1,12 +1,20 @@
-/* footer index&comp1 here */
+/* Footer Index & Footer Container/Columns -> */
 
 .footerContainer {
-  display: flex;
-  width: auto;
+  display: inline-flex;
+  width: 100%;
+  height:auto;
   background: rgb(32, 29, 72);
-  padding-left: 100px;
+  padding-left:6.58vw;
+  padding-right: 6.58vw;
   padding-top: 50px;
-  box-sizing: content-box;
+
+ 
+}
+.comp1-style{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
 }
 
 .legoImage-footer {
@@ -106,42 +114,50 @@
 }
 
 .footerInfo {
-  display: flex;
+  display:flex;
   box-sizing: content-box;
+  height: auto;
+  width: auto;
+  position: relative ;
+  right: 10px;
 }
 
 .footerInfo_firstColumn {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 200px;
   height: auto;
-  padding-left: 140px;
+  padding-left: 9.2vw;
   color: white;
   box-sizing: content-box;
 }
 
 .footerInfo_secondColumn {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 200px;
   height: auto;
-  padding-left: 80px;
+  padding-left: 5.2vw;
   color: white;
   box-sizing: content-box;
 }
 
 .footerInfo_thirdColumn {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 200px;
   height: auto;
-  padding-left: 80px;
+  padding-left: 5.2vw;
   color: white;
   box-sizing: content-box;
 }
 
 .footerInfo_fourthColumn {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 200px;
   height: auto;
-  padding-left: 80px;
+  padding-left: 5.2vw;
   color: white;
   box-sizing: content-box;
 }
@@ -170,10 +186,74 @@
 .footerInfo_details:hover {
   text-decoration: underline;
 }
+/* end */
 
-/* social comp going here */
+/* Footer-Social Component -> */
+
+.footer-social-links{
+  width:100%;
+  display: inline-flex;
+  background-color: rgb(32, 29, 72);
+  padding-left: 110px;
+  padding-top:40px;
+ 
+}
+
+.subs{
+  display:inline-block ;
+}
+
+.subs-text{
+  color:white;
+  font-family: "CeraPro-Bold";
+}
+
+.subscribe-inp{
+  margin-top: 20px;
+  width:200px;
+  height:52px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.submit-footer{
+  background-color: rgb(253, 143, 0);
+  padding-bottom: 1px;
+  width: 45px;
+  height: 52px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.social-media-images{
+  display:block;
+  padding-right: 5vw;
+  margin-left: auto;
+ 
+
+}
+
+.footer_followUs{
+  color:white;
+  font-family: "CeraPro-Bold";
+}
+
+.footer_socialMedia-links{
+  padding-top: 25px;
+  display: inline-flex;
+  justify-content: left;
+}
+
+.social-image{
+ height: 40px;
+ width: 60px;
+ padding-right: 20px;
+}
+
+
 
 /* end */
+
+/* Footer Credits -> */
 
 .footerWrapper {
   padding-left: 120px;
@@ -190,11 +270,14 @@
 #footerWrapper_generalInfo_item {
   color: white;
   text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .footerWrapper_generalInfo_item {
   padding-right: 40px;
-  font-size: small;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .footerWrapper_generalInfo_item:hover {
@@ -202,8 +285,10 @@
 }
 
 .footerWrapper_credentials {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 80px;
-  font-size: small;
+  font-weight: 400;
+  font-size: 12px;
   width: auto;
 }
+/* end */
