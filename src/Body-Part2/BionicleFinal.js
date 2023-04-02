@@ -3,7 +3,7 @@ import { Images } from "./Images.js";
 
 export function BionicleFinal() {
   return (
-    <div className="flex  mb-52">
+    <div className="flex  pb-24">
       <a href="asddfas" className=" bg-red-900 h-auto relative font-Cerapro">
         <div>
           <img
@@ -16,15 +16,15 @@ export function BionicleFinal() {
             src={Images.BionicleLogo}
             alt="bionicle"
           />
-          <div className="absolute top-[3rem] left-20">
-            <div className="relative">
+          <div className="absolute top-[3rem] left-20 pl-[2vw]">
+            <div className="relative text-lg ">
               BIONICLE® gift with qualifying purchases over $100*
             </div>
             <a
               href="asda"
               id="buton"
-              className="absolute inline-block top-10  bg-black text-white  p-2 w-[140px] h-[40px] rounded-[4px]
-                    hover:bg-white hover:text-black text-center text-sm "
+              className="relative inline-block top-6 bg-black text-white  p-2 w-[140px] h-[40px] rounded-[4px]
+                    hover:bg-white hover:text-black text-center text-sm  "
             >
               Shop Now
               <svg
