@@ -1,7 +1,6 @@
 import React from "react";
 
 export function ImageSection() {
-
   return (
     <div className="w-[100%] max-w-[100%] block mb-7 mx-0 my-auto bg-white">
       <a
@@ -59,17 +58,18 @@ export function ImageSection() {
                   viewBox="0 0 18 28"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-[18px] ml-[8px] p-[1px] inline-block ">
-                  <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                  className="h-[18px] ml-[8px] p-[1px] inline-block "
+                >
+                  <path
+                    d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                    fill="currentColor"
+                  ></path>
                 </svg>
               </a>
-
-
             </div>
           </div>
         </div>
-      </a >
-    </div >
+      </a>
+    </div>
   );
 }
-

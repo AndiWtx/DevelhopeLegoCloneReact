@@ -1,14 +1,35 @@
 import React from "react";
 
 export function UtilityBar() {
+  //I need and array of object like this  or the way of targeting that texts;
+  // const texts = [
+  // {},
+  // {},
+  //...
+  //]
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const goToNext = () => {
+    const isFirsText = currentIndex === 0;
+    const newIndex = isFirsText ? texts.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToPrev = () => {
+    const isLastText = currentIndex === texts.length - 1;
+    const newIndex = isLastText ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
   return (
     <div className="z-[100] sticky bg-[rgb(248,248,248)] transition-[0s] duration-[ease-in] delay-[0.3s] top-0 inset-x-0">
       <div className="bg-[rgb(248,248,248)] flex relative items-center justify-between w-full max-w-[100rem] mx-auto my-0 px-7 py-0">
         <div className="flex flex-[0_1_33.33%] items-center mb-[0.94rem] mt-[0.94rem]">
           <a
             href="https://www.lego.com/kids"
-            className="inline-flex items-center rounded-sm border-none bg-[rgb(117,217,255)] hover:bg-[white] 
-            text-black text-xs leading-2 uppercase px-0 py-1 shadow-[rgb(48_85_181_/_44%)_0px_1px_4px_0px] 
+            className="inline-flex items-center rounded-sm border-none bg-[rgb(117,217,255)] hover:bg-[white]
+            text-black text-xs leading-2 uppercase px-0 py-1 shadow-[rgb(48_85_181_/_44%)_0px_1px_4px_0px]
             w-[7vw] text-center border-collapse font-medium no-underline "
           >
             <svg
@@ -32,7 +53,7 @@ export function UtilityBar() {
           <button
             className="text-[rgb(44,44,44)] z-[1] shadow-none cursor-pointer mx-auto p-3 bg-transparent border-0 "
             type="button"
-            onClick='{buttonSlider}'
+            onClick={goToPrev}
           >
             <svg
               width="18"
@@ -54,16 +75,32 @@ export function UtilityBar() {
               id="headerSliderText"
             >
               BIONICLE® gift with qualifying purchases over $100*
-              <a className="ml-3 no-underline hover:underline text-blue-600"
-                href="asdknSDFN">
+              <a
+                className="ml-3 no-underline hover:underline text-blue-600"
+                href="asdknSDFN"
+              >
                 Shop now
+              </a>
+            </div>
+          </div>
+          <div className="flex w-full justify-center items-center shrink-0  ">
+            <div
+              className=" m-0 text-center text-xs leading-5 font-Cerapro"
+              id="headerSliderText"
+            >
+              FREE Shipping with orders over $35!*
+              <a
+                className="ml-3 no-underline hover:underline text-blue-600"
+                href="asdknSDFN"
+              >
+                Learn more
               </a>
             </div>
           </div>
           <button
             className="text-[rgb(44,44,44)] z-[1] shadow-none cursor-pointer mx-auto p-3 bg-transparent border-0 "
             type="button"
-            onclick="buttonSlider()"
+            onclick={goToNext}
           >
             <svg
               width="18"
@@ -147,4 +184,3 @@ export function UtilityBar() {
     </div>
   );
 }
-
