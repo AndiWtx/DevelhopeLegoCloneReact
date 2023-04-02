@@ -1,9 +1,8 @@
 import React from "react";
 
 export function MainBar() {
-
   return (
-    <div >
+    <div>
       <div className="flex px-0 py-3 max-w-[100vw] bg-[rgb(255,207,0)]">
         <div className="flex items-center h-16.5 mx-0 my-auto w-full max-w-[100%] pl-[2vw] ">
           <div className="flex h-[100%] items-center px-0 py-auto mx-0 my-auto ">
@@ -102,4 +101,3 @@ export function MainBar() {
     </div>
   );
 }
-

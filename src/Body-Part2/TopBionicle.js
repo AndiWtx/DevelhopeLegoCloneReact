@@ -28,8 +28,12 @@ export function TopBionicle() {
                     viewBox="0 0 18 28"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[18px] ml-[8px] p-[3px] inline-block ">
-                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    className="h-[18px] ml-[8px] p-[3px] inline-block "
+                  >
+                    <path
+                      d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                      fill="currentColor"
+                    ></path>
                   </svg>
                 </a>
               </div>
@@ -53,8 +57,12 @@ export function TopBionicle() {
                     viewBox="0 0 18 28"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[18px] ml-[8px] p-[3px] inline-block ">
-                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    className="h-[18px] ml-[8px] p-[3px] inline-block "
+                  >
+                    <path
+                      d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                      fill="currentColor"
+                    ></path>
                   </svg>
                 </a>
               </div>
@@ -63,9 +71,9 @@ export function TopBionicle() {
               <div className="flex flex-col font-Cerapro  w-[300px] text-center">
                 <img className="" src={Images.Titanic} alt="titanic" />
 
-                
-
-                <div className="font-bold text-[20px] pt-[20px]">LEGO® Titanic</div>
+                <div className="font-bold text-[20px] pt-[20px]">
+                  LEGO® Titanic
+                </div>
 
                 <div className="mb-4 text-[14px] pt-[10px]">
                   Bring the 20th century marvel to life in exquisite detail and
@@ -80,8 +88,12 @@ export function TopBionicle() {
                     viewBox="0 0 18 28"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[18px] ml-[8px] p-[3px] inline-block ">
-                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    className="h-[18px] ml-[8px] p-[3px] inline-block "
+                  >
+                    <path
+                      d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                      fill="currentColor"
+                    ></path>
                   </svg>
                 </a>
               </div>
@@ -105,8 +117,12 @@ export function TopBionicle() {
                     viewBox="0 0 18 28"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[18px] ml-[8px] p-[3px] inline-block ">
-                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    className="h-[18px] ml-[8px] p-[3px] inline-block "
+                  >
+                    <path
+                      d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                      fill="currentColor"
+                    ></path>
                   </svg>
                 </a>
               </div>
@@ -139,8 +155,12 @@ export function TopBionicle() {
                     viewBox="0 0 18 28"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[18px] ml-[8px] p-[3px] inline-block ">
-                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    className="h-[18px] ml-[8px] p-[3px] inline-block "
+                  >
+                    <path
+                      d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                      fill="currentColor"
+                    ></path>
                   </svg>
                 </a>
               </div>
@@ -168,8 +188,12 @@ export function TopBionicle() {
                     viewBox="0 0 18 28"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[18px] ml-[8px] p-[3px] inline-block ">
-                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    className="h-[18px] ml-[8px] p-[3px] inline-block "
+                  >
+                    <path
+                      d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                      fill="currentColor"
+                    ></path>
                   </svg>
                 </a>
               </div>
