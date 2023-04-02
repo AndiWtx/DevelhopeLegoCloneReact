@@ -17,7 +17,7 @@ export class LayoutSection extends React.Component {
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
               <a
-                href="#"
+                href="asda"
                 class="layout-section-container-ul-li-anchor"
                 className=" no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs"
               >
@@ -37,7 +37,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="asdsa" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/exclusives.png"
@@ -52,7 +52,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="assdfad" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/offers.png"
@@ -67,7 +67,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="asfasdf" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/valentines.png"
@@ -84,7 +84,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="asdsdfa" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/friends.png"
@@ -99,7 +99,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="adsf" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/marvel.png"
@@ -114,7 +114,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="sdfad" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/lego-superior-mario.png"
@@ -131,7 +131,7 @@ export class LayoutSection extends React.Component {
               class="layout-section-container-ul-li"
               className="no-underline text-[black] max-w-[6.25rem] cursor-pointer bg-transparent text-center text-xs hover:underline hover:text-[#006db7]"
             >
-              <a href="#" class="layout-section-container-ul-li-anchor">
+              <a href="asdfsd" class="layout-section-container-ul-li-anchor">
                 <picture class="layout-section-image-style-container">
                   <img
                     src="./images/vip_lay.jpeg"

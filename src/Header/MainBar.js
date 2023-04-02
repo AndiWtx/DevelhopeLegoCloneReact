@@ -1,42 +1,42 @@
 import React from "react";
 
-export class MainBar extends React.Component {
-  render() {
-    return (
-      <div>
-        <div className="flex px-0 py-3 max-w-[100vw] bg-[rgb(255,207,0)]">
-          <div className="flex items-center h-16.5 mx-0 my-auto w-full max-w-[100%]  ">
-            <div className="flex h-[100%] items-center px-0 py-auto mx-0 my-auto ">
-              <nav className="flex h-[100%] items-center px-0 py-auto mx-0 my-auto ">
-                <a href="#" className="mr-16 no-underline bg-transparent ">
-                  <img
-                    src="./images/lego-logo.svg"
-                    alt="Lego"
-                    width="50px"
-                    className="w-14 h-14 inline-block align-middle max-w-[100%] object-cover border-none"
-                  />
-                </a>
-              </nav>
-            </div>
+export function MainBar() {
 
-            <ul className="flex h-14 items-center m-0 p-0  ">
-              <li className="flex items-center whitespace-nowrap mr-12 list-none">
-                <button className="uppercase font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
-                  Shop
-                </button>
-              </li>
-              <li className="flex items-center whitespace-nowrap mr-12 list-none">
-                <button className="uppercase font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
-                  Discover
-                </button>
-              </li>
-              <li className="flex items-center whitespace-nowrap mr-0 list-none">
-                <button className="uppercase font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
-                  Help
-                </button>
-              </li>
-            </ul>
+  return (
+    <div >
+      <div className="flex px-0 py-3 max-w-[100vw] bg-[rgb(255,207,0)]">
+        <div className="flex items-center h-16.5 mx-0 my-auto w-full max-w-[100%] pl-[2vw] ">
+          <div className="flex h-[100%] items-center px-0 py-auto mx-0 my-auto ">
+            <nav className="flex h-[100%] items-center px-0 py-auto mx-0 my-auto ">
+              <a href="asdadsf" className="mr-16 no-underline bg-transparent ">
+                <img
+                  src="./images/lego-logo.svg"
+                  alt="Lego"
+                  width="50px"
+                  className="w-14 h-14 inline-block align-middle max-w-[100%] object-cover border-none"
+                />
+              </a>
+            </nav>
+          </div>
 
+          <ul className="flex h-14 items-center m-0 p-0  ">
+            <li className="flex items-center whitespace-nowrap mr-12 list-none">
+              <button className="uppercase hover:underline font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
+                Shop
+              </button>
+            </li>
+            <li className="flex items-center whitespace-nowrap mr-12 list-none">
+              <button className="uppercase hover:underline font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
+                Discover
+              </button>
+            </li>
+            <li className="flex items-center whitespace-nowrap mr-0 list-none">
+              <button className="uppercase hover:underline font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
+                Help
+              </button>
+            </li>
+          </ul>
+          <div className="flex items-center pr-[2vw] ml-auto">
             <div className="flex items-center ml-au">
               <div className="flex items-end mr-7">
                 <button className="flex cursor-pointer w-10 h-10 bg-white items-center justify-center rounded-[50%]">
@@ -78,7 +78,7 @@ export class MainBar extends React.Component {
               </svg>
             </button>
             <a
-              href="#"
+              href="asdfgadsf"
               className=" inline-flex items-center text-[black] text-xs leading-[1.1875rem] cursor-pointer no-underline bg-transparent mr-5 hover:underline"
             >
               <svg
@@ -99,6 +99,7 @@ export class MainBar extends React.Component {
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
+
