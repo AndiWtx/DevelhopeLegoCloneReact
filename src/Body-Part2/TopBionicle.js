@@ -19,7 +19,10 @@ export function TopBionicle() {
                 <div className="mb-4 text-[14px] pt-[10px]">
                   Build a model of one of the world’s best-loved landmarks.
                 </div>
-                <a href="asdasdasd" className="group-hover:underline text-[16px] font-bold ">
+                <a
+                  href="asdasdasd"
+                  className="group-hover:underline text-[16px] font-bold "
+                >
                   Shop now
                 </a>
               </div>
@@ -34,7 +37,10 @@ export function TopBionicle() {
                   Build a tribute to the golden age of jazz with this playful
                   set.
                 </div>
-                <a href="asdasafs" className="group-hover:underline text-[16px] font-bold">
+                <a
+                  href="asdasafs"
+                  className="group-hover:underline text-[16px] font-bold"
+                >
                   Shop now
                 </a>
               </div>
@@ -42,12 +48,17 @@ export function TopBionicle() {
             <a href="dfgadsf" className="group ">
               <div className="flex flex-col font-Cerapro  w-72 text-center">
                 <img className="" src={Images.Titanic} alt="titanic" />
-                <div className="font-medium text-[20px] pt-[20px]">LEGO® Titanic</div>
+                <div className="font-medium text-[20px] pt-[20px]">
+                  LEGO® Titanic
+                </div>
                 <div className="mb-4 text-[14px] pt-[10px]">
                   Bring the 20th century marvel to life in exquisite detail and
                   scale.
                 </div>
-                <a href="asdfa" className="group-hover:underline text-[16px] font-bold">
+                <a
+                  href="asdfa"
+                  className="group-hover:underline text-[16px] font-bold"
+                >
                   Shop now
                 </a>
               </div>
@@ -62,7 +73,10 @@ export function TopBionicle() {
                   Mark 90 years of LEGO® history with an updated version of a
                   fan favorite.
                 </div>
-                <a href="asdfadf" className="group-hover:underline text-[16px] font-bold">
+                <a
+                  href="asdfadf"
+                  className="group-hover:underline text-[16px] font-bold"
+                >
                   Shop now
                 </a>
               </div>
@@ -86,7 +100,10 @@ export function TopBionicle() {
                 <div className="mb-5 text-sm">
                   Reserve the new Clone Commander Cody™ Helmet today.
                 </div>
-                <a href="asdfas" className="group-hover:underline text-[16px] font-bold ">
+                <a
+                  href="asdfas"
+                  className="group-hover:underline text-[16px] font-bold "
+                >
                   Shop now
                 </a>
               </div>
@@ -105,7 +122,10 @@ export function TopBionicle() {
                 <div className="mb-5 text-sm">
                   New Princess Leia™ (Boushh™) Helmet. Ships from 3/1.
                 </div>
-                <a href="asdfasd" className="group-hover:underline text-[16px] font-bold ">
+                <a
+                  href="asdfasd"
+                  className="group-hover:underline text-[16px] font-bold "
+                >
                   Shop now
                 </a>
               </div>

@@ -7,7 +7,7 @@ import { TopBionicle } from "./Body-Part2/TopBionicle";
 import { FooterIndex } from "./Footer/FooterIndex";
 import { BionicleFinal } from "./Body-Part2/BionicleFinal";
 import { Carousel2 } from "./Body-Part1/Carousel2";
-import { ReadAllAbout } from "./Body-Part3/ReadAllAbout"
+import { ReadAllAbout } from "./Body-Part3/ReadAllAbout";
 
 export class App extends React.Component {
   render() {

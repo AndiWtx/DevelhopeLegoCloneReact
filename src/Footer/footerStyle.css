@@ -3,15 +3,13 @@
 .footerContainer {
   display: inline-flex;
   width: 100%;
-  height:auto;
+  height: auto;
   background: rgb(32, 29, 72);
-  padding-left:6.58vw;
+  padding-left: 6.58vw;
   padding-right: 6.58vw;
   padding-top: 50px;
-
- 
 }
-.comp1-style{
+.comp1-style {
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -114,11 +112,11 @@
 }
 
 .footerInfo {
-  display:flex;
+  display: flex;
   box-sizing: content-box;
   height: auto;
   width: auto;
-  position: relative ;
+  position: relative;
   right: 10px;
 }
 
@@ -190,33 +188,32 @@
 
 /* Footer-Social Component -> */
 
-.footer-social-links{
-  width:100%;
+.footer-social-links {
+  width: 100%;
   display: inline-flex;
   background-color: rgb(32, 29, 72);
   padding-left: 110px;
-  padding-top:40px;
- 
+  padding-top: 40px;
 }
 
-.subs{
-  display:inline-block ;
+.subs {
+  display: inline-block;
 }
 
-.subs-text{
-  color:white;
+.subs-text {
+  color: white;
   font-family: "CeraPro-Bold";
 }
 
-.subscribe-inp{
+.subscribe-inp {
   margin-top: 20px;
-  width:200px;
-  height:52px;
+  width: 200px;
+  height: 52px;
   font-size: 14px;
   padding-left: 20px;
 }
 
-.submit-footer{
+.submit-footer {
   background-color: rgb(253, 143, 0);
   padding-bottom: 1px;
   width: 45px;
@@ -224,32 +221,28 @@
   border-radius: 0px 5px 5px 0px;
 }
 
-.social-media-images{
-  display:block;
+.social-media-images {
+  display: block;
   padding-right: 5vw;
   margin-left: auto;
- 
-
 }
 
-.footer_followUs{
-  color:white;
+.footer_followUs {
+  color: white;
   font-family: "CeraPro-Bold";
 }
 
-.footer_socialMedia-links{
+.footer_socialMedia-links {
   padding-top: 25px;
   display: inline-flex;
   justify-content: left;
 }
 
-.social-image{
- height: 40px;
- width: 60px;
- padding-right: 20px;
+.social-image {
+  height: 40px;
+  width: 60px;
+  padding-right: 20px;
 }
-
-
 
 /* end */
 

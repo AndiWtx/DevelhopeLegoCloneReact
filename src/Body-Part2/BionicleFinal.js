@@ -6,7 +6,11 @@ export function BionicleFinal() {
     <div className="flex  mb-52">
       <a href="asddfas" className=" bg-red-900 h-auto relative font-Cerapro">
         <div>
-          <img src={Images.Bionicle} alt="bionicle" className="h-auto w-[100%]" />
+          <img
+            src={Images.Bionicle}
+            alt="bionicle"
+            className="h-auto w-[100%]"
+          />
           <img
             className="flex absolute bottom-5 right-5 w-40"
             src={Images.BionicleLogo}
@@ -16,7 +20,8 @@ export function BionicleFinal() {
             <div className="relative">
               BIONICLE® gift with qualifying purchases over $100*
             </div>
-            <a href="asda"
+            <a
+              href="asda"
               id="buton"
               className="absolute inline-block top-10  bg-black text-white  p-2 w-[140px] h-[40px] rounded-[4px]
                     hover:bg-white hover:text-black text-center text-sm "
@@ -36,7 +41,7 @@ export function BionicleFinal() {
             </a>
           </div>
         </div>
-      </a >
-    </div >
+      </a>
+    </div>
   );
 }
