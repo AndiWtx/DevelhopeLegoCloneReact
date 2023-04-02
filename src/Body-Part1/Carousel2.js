@@ -5,7 +5,7 @@ export function Carousel2() {
   return (
     <div className="flex justify-center ">
       <div className="w-2/3 h-auto flex flex-col items-center font-Cerapro pb-5">
-        <div className="w-full self-start text-[2rem] mb-3">
+        <div className="w-full self-start text-[2rem] mb-3 pl-[100px]">
           Most popular sets
         </div>
         <div className="w-full  flex   justify-between gap-5">
