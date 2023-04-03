@@ -3,6 +3,7 @@ import { Images2 } from "./Imgs.js";
 
 export function ReadAllAbout() {
   return (
+
     <>
       <div className="flex">
         <div className="w-2/3 h-auto inline-block items-center font-Cerapro pb-5">
@@ -100,3 +101,4 @@ export function ReadAllAbout() {
     </>
   )
 }
+
