@@ -17,9 +17,7 @@ export function ImageSection() {
             class="main-image-section-picture"
             className="inset-0 cursor-pointer "
           >
-            <source type="image/jpeg" media="(min-width: 901px)" srcset="" />
-            <source type="image/jpeg" media="(min-width: 601px)" srcset="" />
-            <source type="image/jpeg" media="(max-width: 600px)" srcset="" />
+
             <img
               src="./images/imagebar.jpeg"
               alt=""
@@ -29,8 +27,13 @@ export function ImageSection() {
           </picture>
           <div
             class="main-image-section-on-image-container"
-            className="absolute left-24 bg-transparent text-left top-2/4  translate-y-[-20%] max-w-[35%] w-[520px] leading-[2rem] font-Cerapro "
+            className="absolute left-24 bg-transparent text-left top-2/4  translate-y-[-48%] max-w-[35%] w-[520px] leading-[2rem] font-Cerapro ml-[10px] "
+          ><h2
+            class="main-image-section-on-image-text"
+            className="text-[2.5rem] pb-[20px] leading-[3.125rem] font-normal text-[white] cursor-default m-0  "
           >
+              <img src="./images/ideas_logo_neg_300w.png" className="h-[50px]" alt="ideasImage" />
+            </h2>
             <h2
               class="main-image-section-on-image-text"
               className="text-[2.5rem] pb-[20px] leading-[3.125rem] font-normal text-[white] cursor-default m-0  "

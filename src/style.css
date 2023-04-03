@@ -1,9 +1,25 @@
-@import "./fonts.css";
-@import "./Footer/footerStyle.css";
 /*global css*/
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* NavBar CSS */
+
+nav {
+  position: sticky;
+  top: 0;
+  transition: transform 150ms ease-in-out;
+  z-index:999
+}
+
+nav.nav-bar--hidden {
+  transform: translateY(-100%);
+}
+
+
+/* Footer CSS */
+@import "./fonts.css";
+@import "./Footer/footerStyle.css";
 
 
