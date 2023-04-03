@@ -4,9 +4,23 @@ import { useScrollListener } from "./useScrollListener";
 
 
 export function NavigationBar() {
+  const handleButton = () => {
+    if (document.getElementById('headerSliderText').innerHTML === 'BIONICLE® gift with qualifying purchases over $100*') {
+      document.getElementById('headerSliderText').innerHTML = 'FREE Shipping with orders over $35!*'
+      document.getElementById('headerSliderLink').innerHTML = 'Learn more'
+    } else {
+      document.getElementById('headerSliderText').innerHTML = 'BIONICLE® gift with qualifying purchases over $100*'
+      document.getElementById('headerSliderLink').innerHTML = 'Shop now'
+    }
+
+
+  }
+
+
 
   const [navClassList, setNavClassList] = useState([]);
   const scroll = useScrollListener();
+
 
   // update classList of nav on scroll
   useEffect(() => {
@@ -49,11 +63,12 @@ export function NavigationBar() {
             </a>
           </div>
 
-          <div className="flex max-w-[34.6875rem] mx-auto my-0 justify-evenly h-[3.1875rem] relative">
+          <div className="inline-flex w-[30rem] mx-auto my-0 justify-evenly h-[3.1875rem] relative">
             <button
               className="text-[rgb(44,44,44)] z-[1] shadow-none cursor-pointer mx-auto p-3 bg-transparent border-0 "
               type="button"
-              onClick='{buttonSlider}'
+              id='arrow-btn-header'
+              onClick={handleButton}
             >
               <svg
                 width="18"
@@ -75,16 +90,19 @@ export function NavigationBar() {
                 id="headerSliderText"
               >
                 BIONICLE® gift with qualifying purchases over $100*
-                <a className="ml-3 no-underline hover:underline text-blue-600"
-                  href="asdknSDFN">
-                  Shop now
-                </a>
               </div>
+              <span className="ml-3 no-underline hover:underline text-blue-600 text-xs"
+                href="asdknSDFN"
+                id='headerSliderLink'>
+                Shop now
+              </span>
+
             </div>
             <button
               className="text-[rgb(44,44,44)] z-[1] shadow-none cursor-pointer mx-auto p-3 bg-transparent border-0 "
               type="button"
-              onclick="buttonSlider()"
+              id='arrow-btn-header'
+              onClick={handleButton}
             >
               <svg
                 width="18"
@@ -262,7 +280,7 @@ export function NavigationBar() {
           </div>
         </div>
       </div>
-    </nav>
+    </nav >
   );
 }
 

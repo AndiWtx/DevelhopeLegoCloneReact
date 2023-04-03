@@ -217,14 +217,14 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel1-Andi.webp" alt="ghfd" />
+                <img src="./images/carousel21-Andi.webp" alt="ghfd" />
               </div>
               <div class="product-predetails">
                 <div class="lateness">New</div>
               </div>
             </div>
 
-            <div class="product-name">Disney 100th Celebration</div>
+            <div class="product-name">Christmas Wreath 2-in-1</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
@@ -250,14 +250,14 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel2-Andi.webp" alt="khjf" />
+                <img src="./images/carousel22-Andi.webp" alt="khjf" />
               </div>
               <div class="product-predetails">
-                <div class="lateness">New</div>
+                <div class="lateness">Exclusive</div>
               </div>
             </div>
 
-            <div class="product-name">The Avengers Quinjet</div>
+            <div class="product-name">Christmas Tree</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
@@ -265,7 +265,7 @@ export function CarouselTop() {
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
             </div>
-            <div class="product-price"><span id="discounted-price">$99.99</span></div>
+            <div class="product-price"><span id="discounted-price">$44.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
           </section>
 
@@ -284,13 +284,46 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel3-Andi.webp" alt="dfgh" />
+                <img src="./images/carousel23-Andi.webp" alt="dfgh" />
               </div>
               <div class="product-predetails">
               </div>
             </div>
 
-            <div class="product-name">The Office</div>
+            <div class="product-name">Santa's Sleigh</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$39.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel24-Andi.webp" alt="fghd" class="smallImageDisplay" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">Money Tree</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
@@ -300,6 +333,7 @@ export function CarouselTop() {
             </div>
             <div class="product-price"><span id="discounted-price">$174.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
+
           </section>
 
           <section class="product-container">
@@ -316,290 +350,26 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel4-Andi.webp" alt="fghd" class="smallImageDisplay" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">Hard to find</div>
-              </div>
-            </div>
-
-            <div class="product-name">AT-AT™</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$174.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel5-Andi.webp" alt="dfgh" />
+                <img src="./images/carousel25-Andi.webp" alt="dfgh" />
               </div>
               <div class="product-predetails">
                 <div class="lateness">New</div>
               </div>
             </div>
 
-            <div class="product-name">Dog Rescue Center</div>
+            <div class="product-name">Monkey Kid's Team Van</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$59.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel6-Andi.webp" alt="dfgh" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">Hard to find</div>
-              </div>
-            </div>
-
-            <div class="product-name">Boutique Hotel</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$229.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel7-Andi.webp" alt="dfg" />
-              </div>
-              <div class="product-predetails">
-              </div>
-            </div>
-
-            <div class="product-name">Ferrari Daytona SP3</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$449.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel8-Andi.webp" alt="dfgh" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">Hard to find</div>
-              </div>
-            </div>
-
-            <div class="product-name">Vincent van Gogh - The Starry Night</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$169.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel9-Andi.webp" alt="dfghsdf" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">New</div>
-              </div>
-            </div>
-
-            <div class="product-name">Bird's Nest</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$12.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel10-Andi.webp" alt="sfghsdfg" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">New</div>
-              </div>
-            </div>
-
-            <div class="product-name">Emergency Vehicles HQ</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$69.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel11-Andi.webp" alt="dfghsgf" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">New</div>
-              </div>
-            </div>
-
-            <div class="product-name">Monkey King Ultra Mech</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
-            </div>
-            <div class="product-price"><span id="discounted-price">$159.99</span></div>
-            <button id="add-to-bag-button">Add to Bag</button>
-          </section>
-
-          <section class="product-container">
-            <div class="transparent-container">
-              <div class="add-wish-list">
-                <div class="svg-container">
-                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
-                  </svg>
-                </div>
-                <div class="add-to-wish-list-text">
-                  Add to wish list
-                </div>
-              </div>
-              <div class="image-container">
-                <img src="./images/carousel12-Andi.webp" alt="adfgs" />
-              </div>
-              <div class="product-predetails">
-                <div class="lateness">New</div>
-              </div>
-            </div>
-
-            <div class="product-name">Lunar New Year Parade</div>
-            <div class="product-rating">
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
             </div>
             <div class="product-price"><span id="discounted-price">$129.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
           </section>
 
+
           <section class="product-container">
             <div class="transparent-container">
               <div class="add-wish-list">
@@ -614,15 +384,14 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel13-Andi.webp" alt="dfghsadfg" />
+                <img src="./images/carousel26-Andi.webp" alt="dfgh" />
               </div>
               <div class="product-predetails">
-                <div class="lateness">New</div>
-                <div class="price-discount">30% OFF</div>
+                <div class="lateness">Exclusive</div>
               </div>
             </div>
 
-            <div class="product-name">Tree House</div>
+            <div class="product-name">Lego® Iconic Chess Set</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
@@ -630,7 +399,76 @@ export function CarouselTop() {
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
             </div>
-            <div class="product-price"><span id="discounted-price">$249.99</span></div>
+            <div class="product-price"><span id="discounted-price">$64.99</span></div>
+
+            <button id="add-to-bag-button">Add to Bag</button>
+
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel27-Andi.webp" alt="dfg" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">Disney Celebration Train</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$39.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel28-Andi.webp" alt="dfgh" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">THE LORD OF THE RINGS: RIVENDELL</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$499.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
           </section>
 
@@ -648,19 +486,152 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel14-Andi.webp" alt="dafgs" />
+                <img src="./images/carousel29-Andi.webp" alt="dfghsdf" />
               </div>
               <div class="product-predetails">
+                <div class="lateness">New</div>
               </div>
             </div>
 
-            <div class="product-name">Dried Flower Centerpiece</div>
+            <div class="product-name">BTS Dynamite</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$99.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel210-Andi.webp" alt="sfghsdfg" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">Adorable Dogs</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$29.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel211-Andi.webp" alt="dfghsgf" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">Magical Unicorn</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$9.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel212-Andi.webp" alt="adfgs" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">Exotic Parrot</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$19.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel213-Andi.webp" alt="dfghsadfg" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">Spider Tank</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
             </div>
             <div class="product-price"><span id="discounted-price">$49.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
@@ -680,21 +651,22 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel15-Andi.webp" alt="adfgfgh" />
+                <img src="./images/carousel214-Andi.webp" alt="dafgs" />
               </div>
               <div class="product-predetails">
+                <div class="lateness">New</div>
               </div>
             </div>
 
-            <div class="product-name">Beach Camper Van</div>
+            <div class="product-name">2022 Gord GT</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
-              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
             </div>
-            <div class="product-price"><span id="discounted-price">$59.99</span></div>
+            <div class="product-price"><span id="discounted-price">$119.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
           </section>
 
@@ -712,14 +684,47 @@ export function CarouselTop() {
                 </div>
               </div>
               <div class="image-container">
-                <img src="./images/carousel16-Andi.webp" alt="adfhs" />
+                <img src="./images/carousel215-Andi.webp" alt="adfgfgh" />
               </div>
               <div class="product-predetails">
                 <div class="lateness">New</div>
               </div>
             </div>
 
-            <div class="product-name">Llama</div>
+            <div class="product-name">The Mandalorian N-1 Starfighter™ Microfighter</div>
+            <div class="product-rating">
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
+              <img src="./images/halfrating.svg" alt="stars" width="15" height="15" />
+            </div>
+            <div class="product-price"><span id="discounted-price">$15.99</span></div>
+            <button id="add-to-bag-button">Add to Bag</button>
+          </section>
+
+          <section class="product-container">
+            <div class="transparent-container">
+              <div class="add-wish-list">
+                <div class="svg-container">
+                  <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path>
+                  </svg>
+                </div>
+                <div class="add-to-wish-list-text">
+                  Add to wish list
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="./images/carousel216-Andi.webp" alt="adfhs" />
+              </div>
+              <div class="product-predetails">
+                <div class="lateness">New</div>
+              </div>
+            </div>
+
+            <div class="product-name">McLaren Solus GT & McLaren F1 LM</div>
             <div class="product-rating">
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
@@ -727,7 +732,7 @@ export function CarouselTop() {
               <img src="./images/fullrating.svg" alt="stars" width="15" height="15" />
               <img src="./images/zerorating.svg" alt="stars" width="15" height="15" />
             </div>
-            <div class="product-price"><span id="discounted-price">$9.99</span></div>
+            <div class="product-price"><span id="discounted-price">$34.99</span></div>
             <button id="add-to-bag-button">Add to Bag</button>
           </section>
 
