@@ -24,7 +24,7 @@ export class App extends React.Component {
         
 
         {/* Tuna's Part Start -> */}
-        <Carousel2 />
+//         <Carousel2 />
 
         {/*  Tuna's Part End <- */}
 
