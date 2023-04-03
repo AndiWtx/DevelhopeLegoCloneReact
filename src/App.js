@@ -17,30 +17,30 @@ export class App extends React.Component {
   render() {
     return (
       <div >
-        {/* Taha's Part Start -> */}
+       
         <NavigationBar />
         <ImageSection />
         <LayoutSection />
-        {/*  Taha's Part End <- */}
+        
 
         {/* Tuna's Part Start -> */}
         <Carousel2 />
 
         {/*  Tuna's Part End <- */}
 
-        {/*omer*/}
+      
         <TrendindThemes />
         <TopBionicle />
 
         <BionicleFinal />
-        {/*omer-end*/}
+       
 
-        {/* Andrei's Part Start ->  */}
+        
         {/* <CarouselFeaturedSets /> */}
         <ReadAllAbout />
         <FooterIndex />
 
-        {/* Andrei's Part End <- */}
+        
       </div>
     );
   }
