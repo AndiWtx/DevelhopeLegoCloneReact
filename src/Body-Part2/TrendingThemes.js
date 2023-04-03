@@ -7,7 +7,7 @@ export function TrendindThemes() {
     <>
       <div className="flex ">
         <div className="w-2/3 h-auto inline-block items-center font-Cerapro pb-5">
-          <div className="w-full self-start text-[2rem] mb-3 pl-[8vw] pb-[10px]">
+          <div className="w-full self-start text-[2rem] mb-3 pl-[8vw] pb-[10px] pt-[70px]">
             Trendind Themes
           </div>
           <div className="w-[100vw]  flex   justify-between flex-wrap pl-[8vw] pr-[8vw] pb-[60px]">

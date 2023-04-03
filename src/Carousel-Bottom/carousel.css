@@ -1,11 +1,4 @@
-:root {
-  font-family: "CeraPro";
-}
 
-* {
-  box-sizing: border-box;
-  margin: 0px;
-}
 
 .featured-sets-wholebody-container {
   display: flex;
@@ -21,12 +14,9 @@
 }
 
 .featured-sets {
-  font-weight: 900;
   font-size: 32px;
   color: #2C2C2C;
   align-self: flex-start;
-  margin-left: 7vw;
-  margin-top: 70px;
   margin-bottom: 20px;
   display: block;
 }
@@ -36,13 +26,14 @@
   font-size: 32px;
   color: #2C2C2C;
   align-self: flex-start;
-  margin-left: 7vw;
-  margin-top: 40px;
   margin-bottom: 20px;
   display: block;
 }
+.product-name:hover{
+  text-decoration: underline;
+}
 
-.product-container {
+.product-container2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -68,7 +59,7 @@
   object-fit: cover;
 }
 
-.transparent-container {
+.transparent-container2 {
   border: 1px solid rgb(224, 224, 224);
   display: flex;
   flex-direction: column;
@@ -80,7 +71,7 @@
   position: relative;
 }
 
-.transparent-container:hover .image-container > img {
+.transparent-container2:hover .image-container > img {
   transform: scale(1.13);
 }
 
@@ -91,16 +82,10 @@
   padding: 3px 8px;
 }
 
-.price-discount {
-  background-color: rgb(208, 2, 27);
-  width: fit-content;
-  padding: 3px 3px;
-  font-size: 12px;
-  font-weight: 500;
-  color: white;
-}
+
 
 .product-predetails {
+  
   display: flex;
   gap: 20px;
   position: absolute;
@@ -151,44 +136,21 @@
   flex-direction: row;
 }
 
-#discounted-price {
-  font-size: inherit;
-  font-weight: inherit;
-  color: rgb(208, 2, 27);
+#discounted-price{
+  font-weight: 600;
 }
 
-#product-original-price {
-  text-decoration: line-through;
-}
 
-.featured-sets-wholebody-container > section:nth-child(2) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(3) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(4) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(7) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(8) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(9) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(10) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(11) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(12) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(13) div[class=product-predetails],
-.featured-sets-wholebody-container > section:nth-child(14) div[class=product-predetails] {
-  display: none;
-}
 
-.featured-sets-wholebody-container > section:nth-child(5) div[class=price-discount],
-.featured-sets-wholebody-container > section:nth-child(6) div[class=price-discount],
-.featured-sets-wholebody-container > section:nth-child(15) div[class=price-discount],
-.featured-sets-wholebody-container > section:nth-child(16) div[class=price-discount] {
-  display: none;
-}
 
-.wrapper {
+
+.wrapper2 {
   display: flex;
   position: relative;
   width: fit-content;
 }
 
-.wrapper i {
+.wrapper2 i {
   top: 30%;
   height: 44px;
   border: 1px solid rgb(217, 217, 217);
@@ -205,49 +167,49 @@
   transition: transform 0.1s linear;
 }
 
-.wrapper i:active {
+.wrapper2 i:active {
   transform: translateY(-50%) scale(0.9);
 }
 
-.wrapper i:hover {
+.wrapper2 i:hover {
   background: #f2f2f2;
 }
 
-.wrapper i:first-child {
+.wrapper2 i:first-child {
   left: -55px;
   display: none;
 }
 
-.wrapper i:last-child {
+.wrapper2 i:last-child {
   right: -55px;
 }
 
-.wrapper > .carousel {
+.wrapper2 > .carousel2 {
   cursor: pointer;
   overflow: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
 }
 
-.carousel.dragging {
+.carousel2.dragging {
   cursor: grab;
   scroll-behavior: auto;
 }
 
-.carousel.dragging > section {
+.carousel2.dragging > section {
   pointer-events: none;
 }
 
-.carousel section {
+.carousel2 section {
   object-fit: cover;
   user-select: none;
 }
 
-.carousel section:first-child {
+.carousel2 section:first-child {
   margin-left: 0px;
 }
 
-#runnerBarCont {
+#runnerBarCont2 {
   width: 60%;
   background-color: rgb(217, 217, 217);
   display: flex;
@@ -258,9 +220,11 @@
   cursor: pointer;
   margin-top: 40px;
   position: relative;
+  margin-left:15vw;
+  margin-bottom:80px ;
 }
 
-#runnerBar {
+#runnerBar2 {
   background-color: rgb(98, 98, 98);
   width: 25%;
   height: inherit;
@@ -268,7 +232,7 @@
   transition: transform 400ms ease-in-out 0s;
 }
 
-#runnerBarCont.dragging {
+#runnerBarCont2.dragging {
   cursor: grab;
   scroll-behavior: auto;
 }

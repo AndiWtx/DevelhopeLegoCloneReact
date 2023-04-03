@@ -22,14 +22,15 @@ export function NavigationBar() {
 
   return (
     <nav className={navClassList.join(" ")}>
-      <div className="z-[100] sticky bg-[rgb(248,248,248)] transition-[0s] duration-[ease-in] delay-[0.3s] top-0 inset-x-0">
-        <div className="bg-[rgb(248,248,248)] flex relative items-center justify-between w-full max-w-[100rem] mx-auto my-0 px-7 py-0">
+      <div className="z-[100] sticky bg-[rgb(248,248,248)] transition-[0s] 
+      duration-[ease-in] delay-[0.3s] top-0 inset-x-0 font-[Cerapro,sans-serif] ">
+        <div className="bg-[rgb(248,248,248)] flex relative items-center justify-between w-full max-w-[100rem] mx-auto my-0 px-7 py-0 ">
           <div className="flex flex-[0_1_33.33%] items-center mb-[0.94rem] mt-[0.94rem]">
             <a
               href="https://www.lego.com/kids"
               className="inline-flex items-center rounded-sm border-none bg-[rgb(117,217,255)] hover:bg-[white] 
             text-black text-xs leading-2 uppercase px-0 py-1 shadow-[rgb(48_85_181_/_44%)_0px_1px_4px_0px] 
-            w-[7vw] text-center border-collapse font-medium no-underline "
+            w-[7vw] text-center border-collapse  font-semibold no-underline "
             >
               <svg
                 width="18"
@@ -180,7 +181,7 @@ export function NavigationBar() {
               </nav>
             </div>
 
-            <ul className="flex h-14 items-center m-0 p-0  ">
+            <ul className="flex h-14 items-center m-0 p-0 font-semibold ">
               <li className="flex items-center whitespace-nowrap mr-12 list-none">
                 <button className="uppercase hover:underline font-medium text-base leading-4 p-0 shadow-none cursor-pointer overflow-visible m-0 ">
                   Shop

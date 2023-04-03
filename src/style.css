@@ -17,8 +17,8 @@ nav.nav-bar--hidden {
   transform: translateY(-100%);
 }
 
+/* Featured Sets */
 
-/* Footer CSS */
 @import "./fonts.css";
 @import "./Footer/footerStyle.css";
 
